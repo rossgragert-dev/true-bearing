@@ -1,0 +1,22 @@
+{
+  beam: true,
+  no_go: true,
+  calm: true,
+  engine: true,
+  trim: true,
+  reef: true,
+  anchor: true,
+  tack: true,
+  deck_bounds: true,
+  wave_bounds: true,
+  wave_heave_sync: true,
+  flat_sea: true,
+  deterministic: true,
+  rudder_tracks: true
+}
+JavaScript syntax: passed
+Renderer: llvmpipe (LLVM 19.1.7, 256 bits)
+Ocean and geometry: both shaders compile; program links
+Atmosphere: both shaders compile; program links
+Native scene replay: three 390 x 844 frames (day, golden hour, night), eight draw calls each; no GL errors. No browser DOM/HUD captured.
+Chromium Playwright smoke test: BLOCKED: WebGL unavailable. No mobile device testing or measured FPS.
